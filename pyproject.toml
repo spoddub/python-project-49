@@ -1,15 +1,13 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "A set of console-based brain-training games"
+authors = [{ name = "Sergei", email = "spoddub98@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "makefile>=1.1.0",
     "prompt>=0.4.1",
-    "ruff>=0.12.10",
 ]
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
@@ -28,4 +26,3 @@ brain-calc = "brain_games.games.brain_calc:main"
 brain-gcd = "brain_games.games.brain_gcd:main"
 brain-progression = "brain_games.games.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
-
