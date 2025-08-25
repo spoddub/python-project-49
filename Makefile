@@ -11,7 +11,8 @@ package-install:
 	uv tool install dist/*.whl
 
 lint:
-	uv run ruff check brain_games
+	uv run ruff check --fix
+	uv run ruff format
 
 brain-even:
 	uv run brain-even
